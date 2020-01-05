@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    background: #333;
+}
+
+h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background: url(headbg.jpg) 20% 20%;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+
+.container{
+
+    width: 97%;
+    overflow: hidden;
+    background: white;
+    margin-top: 700px;
+    margin-right: 10px;
+    padding: 20px ;
+
+}
+
+.container ul{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.container ul li{
+
+    
+    list-style: none;
+    float: left;
+    width: 240px;
+    height: 240px;
+    background: skyblue;
+    margin: 40px 15px 10px 60px;
+}
