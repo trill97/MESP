@@ -13,24 +13,6 @@ body{
 
 }
 
-h1{
-
-  
-    font-size: 200px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    margin: 0;
-    background: url(headbg.jpg) 20% 20%;
-    background-size: cover;
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-
-}
 
 
 .wrapper{
