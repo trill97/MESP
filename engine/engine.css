@@ -1,5 +1,57 @@
 
 
+/*trills headder css*/
+
+header{
+    background: rgba(3, 105, 97, 0.719) ;
+    width: 100%;
+    position: relative;
+    
+}
+header.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:black ;
+    opacity: 0.8;
+    transform: translateY(-200%);
+    transition: 0.2s;
+}
+body.scroll header.sticky{
+    transform: translateY(0);
+}
+
+.nav-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block ;
+    padding:0 10px ;
+    margin-bottom: 0;
+}
+nav ul li a{
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer ;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+/*malakis h1 */
+
 body{
 
 
@@ -14,6 +66,26 @@ body{
 }
 
 
+
+h1{
+
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin: 0;
+    background: url(headbg.jpg) 20% 20%;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+
+}
+
+/*shanilkas cards*/
 
 .wrapper{
 
@@ -98,6 +170,8 @@ body{
 
 }
 
+/*turnin the card*/
+
 .card:hover .imgbg{
 
     top: 0;
@@ -109,6 +183,8 @@ body{
 
     width: 100%;
 }
+
+/*card back details*/
 
 .card .details{
 
@@ -143,6 +219,9 @@ body{
     font-size: 13px;
 
 }
+
+/*buttons */
+
 
 .details .footer a{
 
