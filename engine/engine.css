@@ -53,38 +53,7 @@ nav ul li a:hover{
 
 /*malakis h1 */
 
-body{
 
-
-    background-color:#333;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat",sans-serif;
-    min-height: 90vh;
-
-}
-
-
-
-h1{
-
-    font-size: 200px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    margin: 0;
-    background: url(headbg.jpg) 20% 20%;
-    background-size: cover;
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-
-}
 
 /*shanilkas cards*/
 
