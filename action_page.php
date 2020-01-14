@@ -28,7 +28,7 @@
         
      
       if($conn->query($sql)){
-        header('Location: home.html');
+        header('Location: index.html');
         
       }
       else{
