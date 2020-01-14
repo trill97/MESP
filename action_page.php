@@ -4,16 +4,16 @@
 
 
    $uname = $_POST['uname'];    
-    $email = $_POST['email'];
-    $tel = $_POST['tel'];
-    $msg = $_POST['Message'];
+    $email = $_POST['mail'];
+    $tel = $_POST['pw'];
+  
     
    
 
     $dbServername = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
-    $dbName = "contactus";
+    $dbName = "signup";
 
     $conn = new mysqli($dbServername,$dbUsername,$dbPassword,$dbName); 
 
@@ -23,12 +23,12 @@
     }
     else
     {
-        $sql = "INSERT INTO contact (Fullname,Email,Phone,Message)
-            values('$uname','$email','$tel','$msg') ";
+        $sql = "INSERT INTO sign (uname,mail,password)
+            values('$uname','$mail','$pw') ";
         
      
       if($conn->query($sql)){
-        header('Location: index.html');
+        header('Location: signup.html');
         
       }
       else{
