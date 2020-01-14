@@ -29,7 +29,7 @@ body.scroll header.sticky{
 
 .nav-wrapper{
     max-width: 1200px;
-    margin: 0 auto;
+    margin:0  auto;
     position: relative;
     padding: 7px 0;
     display: flex;
@@ -73,6 +73,7 @@ body{
 
 
 h1{
+    
 
     font-size: 200px;
     text-transform: uppercase;
@@ -82,7 +83,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    margin: 0;
+    margin-top: 75px;
     background: url(headbg.jpg) 20% 20%;
     background-size: cover;
     -webkit-text-fill-color:transparent;
@@ -114,20 +115,101 @@ h1{
     height: 400px;
 
     background-color: transparent;
-    margin-top: 700px;
+    margin-top: 550px;
    
+
+}
+
+.text01{
+    margin-top:270px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text01:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
 
 }
 
 .main02{
 
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+.text02{
+    margin-top:860px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text02:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
+
 }
 
 
 .main03{
 
-    margin-top: 600px;
+    margin-top: 800px;
+}
+
+.text03{
+    margin-top:1460px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text03:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
+
 }
 
 .card{
@@ -228,6 +310,10 @@ h1{
 
 /*buttons */
 
+.details .footer{
+
+    text-align: center;
+}
 
 .details .footer a{
 
