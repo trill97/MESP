@@ -1,0 +1,621 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+/*trills headder css*/
+
+header{
+    background: rgba(3, 105, 97, 0.719) ;
+    width: 100%;
+    position: relative;
+    
+}
+header.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:black ;
+    opacity: 0.8;
+    transform: translateY(-200%);
+    transition: 0.2s;
+}
+body.scroll header.sticky{
+    transform: translateY(0);
+}
+
+.nav-wrapper{
+    max-width: 1200px;
+    margin:0  auto;
+    position: relative;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block ;
+    padding:0 10px ;
+    margin-bottom: 0;
+}
+nav ul li a{
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer ;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+/*malakis h1 */
+
+body{
+
+
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+    min-height: 90vh;
+
+}
+
+
+
+h1{
+    
+
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin-top: 75px;
+    background: url(headbg.jpg) 20% 20%;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+
+}
+
+/*shanilkas cards*/
+
+.wrapper{
+
+    
+    width: 100%;
+    height: 400px;
+
+    background-color: transparent;
+    margin-top: 100px;
+    position:absolute;
+   
+
+}
+
+/*card*/
+
+.main01{
+
+
+    width: 100%;
+    height: 400px;
+
+    background-color: transparent;
+    margin-top: 550px;
+   
+
+}
+
+.text01{
+    margin-top:270px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text01:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
+
+}
+
+.main02{
+
+    margin-top: 200px;
+}
+
+.text02{
+    margin-top:860px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text02:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
+
+}
+
+
+.main03{
+
+    margin-top: 800px;
+}
+
+.text03{
+    margin-top:1460px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+.text03:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 1.01em;
+    background: linear-gradient(0deg,#fff 0,transparent 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.6;
+
+}
+
+.card{
+
+    display:inline;
+    float:left;
+    margin-left: 110px;
+
+    transform: translate(-0%,0%);
+    width: 300px;
+    height: 400px;
+    background: #979797;
+    overflow: hidden;
+
+    border-bottom: 1.6px solid #228dff;
+
+    /*box shadow*/
+
+    border-radius: 16px 8px 200px 72px;
+    -moz-border-radius:16px 8px 200px 72px;
+    -webkit-border-radius:16px 8px 80px 20px;
+
+    -webkit-box-shadow:8px 8px 40px 0px rgba(34,141,255,1);
+    -moz-box-shadow:0px 0px 40px 0px rgba(34,141,255,1);
+    box-shadow:0px 0px 40px 0px rgba(34,141,255,1);
+
+
+}
+
+.card .imgbg,
+.card .details{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    color: antiquewhite;
+
+    transition: 0.5s;
+}
+
+.card .imgbg{
+
+    top: 0;
+    left: 0;
+
+}
+
+/*turnin the card*/
+
+.card:hover .imgbg{
+
+    top: 0;
+    left: -100%;
+
+}
+
+.card .imgbg img{
+
+    width: 100%;
+}
+
+/*card back details*/
+
+.card .details{
+
+    top: 0;
+    left: 100%;
+    background: #222d35;
+    padding: 50px 10px;
+}
+
+.card:hover .details{
+
+    top: 0;
+    left: 0;
+
+}
+
+.card .details h2{
+
+    color: #228dff;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 10px ;
+    border-bottom: 2px solid #fff;
+
+}
+
+
+.card .details p{
+
+    margin: 20px 0px 0px;
+    color: #fff;
+    font-size: 13px;
+
+}
+
+/*buttons */
+
+.details .footer{
+
+    text-align: center;
+}
+
+.details .footer a{
+
+    color: #228dff;
+
+    text-decoration: none;
+    width: 120px;
+    display: inline-block;
+    text-align:center;
+    padding: 7px 5px;
+    border: 1px solid black;
+    margin-top: 30px;
+    transition: 0.5s;
+
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+
+
+.details .footer a:hover{
+
+    background: black;
+    border: 1px solid #000000;
+    color: white;
+}
+
+
+p{
+
+    color: #ffffff;
+}
+
+
+
+/*malaki outboat brands section*/
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #34495e;
+    padding: 60px;
+    margin-top: 500px;
+
+}
+
+.team-section h3{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+
+.ps{
+    margin-bottom: 40px;
+    
+}
+
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+
+
+}
+
+.ps a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+    
+}
+
+.ps a:hover > img{
+    filter: none;
+    
+}
+ 
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
+/*footer*/
+
+
+.contact{
+    background: rgb(0, 0, 0,0.7);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    
+    
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+footer{
+	position: fixed;
+	bottom: 0;
+                  opacity: 0.7;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
