@@ -6,7 +6,9 @@ body{
     background: radial-gradient(#3848e1,#444a87);
 }
 
-.text{
+.text01{
+    
+    margin-top:270px ;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,7 +19,7 @@ body{
     font-size: 10em;
     font-weight: 800;
 }
-.text:before{
+.text01:before{
     content: attr(data-text);
     position: absolute;
     top: 0;
