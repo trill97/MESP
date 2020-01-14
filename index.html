@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="CSS/main.css">
+
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* Full-width input fields */
+        input[type=text], input[type=tel],input[type=email],input[type=tel],textarea{
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          bottom :5 ;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        
+        }
+        /* Set a style for all buttons */
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        .sbtn{background-color:#2E8B57;
+        }
+        .btn{background-color: #A52A2A;
+        
+        }
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: 	#A52A2A;
+        }
+        
+        /* Center the image and position the close button */
+        .imgcontainer {
+          text-align: center;
+          margin: 24px 0 12px 0;
+          position: relative;
+        }
+        
+        img.avatar {
+          width: 40%;
+          border-radius: 50%;
+        }
+        
+        .container {
+          padding: 16px;
+        
+        }
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          padding-top: 60px;
+        }
+        
+        /* Modal Content/Box */
+        .modal-content {
+          background-color:#C0C0C0;
+         
+        
+          margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+          border: 1px solid #888;
+          width: 80%; /* Could be more or less, depending on screen size */
+        
+        }
+        
+        /* The Close Button (x) */
+        .close {
+          position: absolute;
+          right: 25px;
+          top: 0;
+          color: #000;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: red;
+          cursor: pointer;
+        
+        
+        
+          }
+          .cancelbtn {
+             width: 100%;
+          }
+        
+        </style>
+
+
+    
+    
+</head>
+<body>
+   
+    
+        
+  
+    
+    <header>
+        <nav class="nav-wrapper">
+                <div class="logo">
+                        <a href="Images/MEAP.png">
+                            <img src="Images/logo.png" class="logo"height=90 width="115">
+                        </a>
+                </div>
+                <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#f">About</a></li>
+                        <li><a href="contactus.html" target=blank>Contact Us</a></li>
+                        <li><a href="signup.html" target=blank>SignUp</a></li>
+                </ul>
+        </nav>
+    </header>
+   
+    
+    <video loop muted autoplay  class="bgvideo" plays-inline>
+        <source src="Videos/island.mp4" type="video/mp4" />
+    </video>
+
+    
+        <section class="cover-main" id="home">
+
+            
+               
+            
+           
+            
+            <div class="wrapper">
+                
+                    <h1>Marine Engines</h1>
+                    <h2>&</h2>
+                    <h3>Spare Parts</h3>
+                
+            </div>
+            <form class="box" action="index.html" method="post">
+                <h1>Login</h1>
+                <input type="text" name="" placeholder="Username">
+                <input type="password" name="" placeholder="Password">
+                <input type="submit" name="" value="login">
+
+
+
+            </form>
+           
+        
+        </section>
+        
+       
+        <section class="choose" id="choose">
+            
+    
+                <table class="men" cellspacing="35">
+                        
+                    <td><a href="#"><img src="Images/en.jpg" data-src-600px="image-600px.jpg"
+                        data-src-800px="en-800px.jpg"alt="Engines"></a></td>
+
+
+                    <td><a href="#"><img src="Images/sp.jpg" data-src-600px="image-600px.jpg"
+                        data-src-800px="sp-800px.jpg" alt="SpareParts"></a></td>
+
+                    <td><a href="#"><img src="Images/other.jpg" data-src-600px="image-600px.jpg"
+                        data-src-800px="other-800px.jpg" alt="Other"></a></td>
+                    
+                
+            </table>
+        </section>
+        <section class="vdo" id="vdo">
+            <video autoplay  width="720" height="640" controls loop class="vid">
+                <source src="Videos/1.mp4" type="video/mp4">
+                
+                
+            </video>
+            <div class="yamaha">
+                <h1>Brand New</h1>
+                <h2>Yamaha</h2>
+                <h3>Engines</h3>
+            </div>
+        </section>
+ 
+    <br>
+
+
+		<footer class="footer-distributed" id="f">
+ 
+			<div class="footer-left">
+          <a href="#">
+                            <img src="Images/logo.png" class="logo"height=90 width="115">
+                        </a>
+				<h3>Contact<span>Us</span></h3>
+ 
+		<button onclick="document.getElementById('id01').style.display='block'" class="btn" style="width:auto;">Contact Us</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Images/iop.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+       <label for="uname"><b>Fullname</b></label>
+      <input type="text" placeholder="Enter Fullname" name="uname" required>
+
+      <label for="email"><b>E-mail</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+
+<label for="tel"><b>Phone</b></label>
+      <input type="tel" placeholder="Enter Phone Number" name="tel" required>
+
+<label for="msg"><b>Message</b></label>
+ <div class="col-75">
+      <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+ <button type="submit" class="sbtn">Submit</button>
+
+      
+    </div>
+
+    <div class="container" style="background-color:#708090">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+					
+					
+				</p>
+ 
+				<p class="footer-company-name">All Rights Reserved and Design by <a href="codeblack.html">CODEBLACK</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>Marine Engines 
+						 &</span>
+						Spare Parts</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+94771324728</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:marinengines@marine.com">marineengines@marine.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					This is high tech enterprise which integrates the research, development, assembly, production, sales and service of engines and engine parts,diesel generators,gas generators and marine gearbox.Supported by a number of highly experienced team of offshore engineering and marine engineering.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
+    
+
+</body>
+</html>
