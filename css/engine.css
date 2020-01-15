@@ -84,7 +84,7 @@ h1{
     left: 50%;
     transform: translate(-50% , -50%);
     margin-top: 75px;
-    background: url(Images/headbg.jpg) 20% 20%;
+    background: url('Images/headbg.jpg') 20% 20%;
     background-size: cover;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
