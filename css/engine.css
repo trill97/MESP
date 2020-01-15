@@ -79,12 +79,12 @@ h1{
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 20px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     margin-top: 75px;
-    background: url(h1bg.jpeg) 20% 20%;
+    background: url('h1bg.jpeg') 20%,20%;
     background-size: cover;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
