@@ -355,7 +355,7 @@ p{
 .team-section{
     overflow: hidden;
     text-align: center;
-    background: #34495e;
+    background: transparent;
     padding: 60px;
     margin-top: 500px;
 
