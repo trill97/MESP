@@ -60,7 +60,8 @@ nav ul li a:hover{
 body{
 
 
-    background-color:#333;
+    background-image: url('../Images/back.jpg');
+    
     margin: 0;
     padding: 0;
     justify-content: center;
