@@ -81,7 +81,7 @@ nav ul li a:hover{
 /* powerhead */
 
 body{
-    background-image: url(background-parts.jpg);
+    background-image: url("../Images/back.jpg");
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -105,6 +105,7 @@ section{
 }
 
 .header{
+    color: white;
     text-align: center;
 }
 
@@ -130,7 +131,7 @@ header{
 header h1{
     margin: 0;
     font-size: 50px;
-    color: rgb(49, 49, 49);
+    color:white;
     font-weight: 500;
 }
 
