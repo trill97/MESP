@@ -25,10 +25,16 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    padding: 7px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.menu{
+
+    padding-top: 10px;
 }
 
 
@@ -204,7 +210,6 @@ footer{
 }
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
 }
  
  
@@ -376,3 +381,4 @@ footer{
 		margin-left: 0;
 	}
 }
+
