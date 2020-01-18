@@ -6,9 +6,15 @@
 /*trills headder css*/
 
 header{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size:100%; 
+    
     background: rgba(3, 105, 97, 0.719) ;
     width: 100%;
     position: relative;
+    height: 94px;
+    width: 1401;
     
 }
 
@@ -21,6 +27,18 @@ header.sticky{
     opacity: 0.8;
     transform: translateY(-200%);
     transition: 0.2s;
+}
+
+
+.nav-wrapper{
+
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.menu{
+
+    padding-top: 0px;
 }
 body.scroll header.sticky{
     transform: translateY(0);
@@ -52,6 +70,12 @@ nav ul li a{
 }
 nav ul li a:hover{
     border-bottom: 1px solid #ffffff;
+}
+
+
+body{
+
+    background-image: url("../Images/back.jpg");
 }
 
 /*main container*/
@@ -108,40 +132,41 @@ nav ul li a:hover{
 }
 @keyframes slide{
     0%{
-        background-image: url("image1.jpg");
+        background-image: url("../Images/image1.jpg");
     }
     20%{
-        background-image: url("image2.jpg");
+        background-image: url("../Images/image2.jpg");
     }
     20.01%{
-        background-image: url("image3.jpg");
+        background-image: url("../Images/image3.jpg");
     }
     40%{
-        background-image: url("image4.jpg");
+        background-image: url("../Images/image4.jpg");
     }
     40.01%{
-        background-image: url("image5.jpg");
+        background-image: url("../Images/image5.jpg");
     }
     60%{
-        background-image: url("image6.jpg");
+        background-image: url("../Images/image6.jpg");
     }
     60.01%{
-        background-image: url("image7.jpg");
+        background-image: url("../Images/image7.jpg");
     }
     80%{
-        background-image: url("image8.jpg");
+        background-image: url("../Images/image8.jpg");
     }
     80.01%{
-        background-image: url("image9.jpg");
+        background-image: url("../Images/image9.jpg");
     }
     100%{
-        background-image: url("image10.jpg");
+        background-image: url("../Images/image10.jpg");
     }
 }
 
 
 .main_topic h1
 {
+    color: white;
     text-align: center;
     font-weight: 20;
     font-size: 50px;
@@ -149,6 +174,7 @@ nav ul li a:hover{
 }
 .main_topic ul li
 {
+    color: white;
     margin-left: 120px;
     font-size: 30px;
     font-weight: 50;
@@ -274,7 +300,7 @@ footer{
  
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
+	
 }
  
  
