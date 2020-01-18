@@ -1,3 +1,5 @@
+
+
 /* header by Trill */
 
 header1{
@@ -17,6 +19,31 @@ header1.sticky{
     opacity: 0.8;
     transform: translateY(-200%);
     transition: 0.2s;
+    height: 90px;
+    width: 100%;
+}
+
+.nav-wrapper{
+
+    width: 1340px;
+    height: 94px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.logo{
+
+    width: 115px;
+    height: 94px;
+    padding-left: 40px;
+}
+
+.menu{
+
+    height: 26px;
+    padding-left: 0px;
+    padding-right: 90px;
+    padding-top: 25px;
 }
 
 body.scroll header.sticky{
@@ -27,7 +54,6 @@ body.scroll header.sticky{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 7px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +72,7 @@ nav ul li a{
     color: white;
     cursor: pointer ;
     border-bottom: 1px solid transparent;
-    padding-bottom: 3px;
+    padding-bottom: 0px;
     transition: 0.3s;
 }
 
@@ -57,7 +83,7 @@ nav ul li a:hover{
 /* Spare Parts */
 
 body{
-    background-image: url(background-parts.jpg);
+    background-image: url("../Images/back.jpg");
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,11 +106,16 @@ section{
     text-align: center;
 }
 
+
+
+
 .header{
+    color: white;
     text-align: center;
 }
 
 .container{
+    
     max-width: 1400px;
     width: 1920px;
     height: 590px;
@@ -106,7 +137,7 @@ header{
 header h1{
     margin: 0;
     font-size: 50px;
-    color: rgb(49, 49, 49);
+    color:white;
     font-weight: 500;
 }
 
@@ -194,7 +225,6 @@ footer{
  
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
 }
  
  
