@@ -25,14 +25,28 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size:100%; 
     
+    
 }
 header{
     background: rgba(3, 105, 97, 0.719) ;
     
     width: 100%;
     position: absolute;
+    transform:translate(0px , -50px);
+height :100px;
     
 }
+
+.logo{
+
+
+    margin-top: 7px;
+}
+
+.menu{
+padding-bottom:10px;}
+
+
 header.sticky{
     position: fixed;
     top: 0;
@@ -170,12 +184,19 @@ body.scroll header.sticky{
 .nav-wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
-    padding: 7px 0;
+    position: initial;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+ 
+
+
+
+
+
+
+
 nav ul li{
     display: inline-block ;
     padding:0 10px ;
@@ -191,6 +212,7 @@ nav ul li a{
     padding-bottom: 3px;
     transition: 0.3s;
 }
+
 nav ul li a:hover{
     border-bottom: 1px solid #ffffff;
 }
