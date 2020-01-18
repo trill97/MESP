@@ -11,8 +11,12 @@ header{
     background: rgba(3, 105, 97, 0.719) ;
     width: 100%;
     position: relative;
+    height: 90px;
+    padding-top: 0px;
     
 }
+
+
 header.sticky{
     position: fixed;
     top: 0;
@@ -85,7 +89,7 @@ h1{
     left: 50%;
     transform: translate(-50% , -50%);
     margin-top: 75px;
-    background: url('h1bg.jpeg') 20% 20%;
+    background: url('../Images/h1bg.jpeg') 20% 20%;
     background-size: cover;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
@@ -450,7 +454,7 @@ footer{
  
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
+	
 }
  
  
@@ -620,3 +624,4 @@ footer{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+}
