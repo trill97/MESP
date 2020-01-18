@@ -38,7 +38,7 @@
 <br>
 <section class="descrbox">
     <div class="paraimg">
-        <img src="backhorse-logo.png" alt="logo">
+        <img src="Images/backhorse-logo.png" alt="logo">
     </div>
     <div class="content3">
         <h2>Black Horse</h2>
@@ -62,7 +62,7 @@
     <div class="container">
         <div class="box">
             <div class="imagebox">
-                <img src="boat1.jpg" alt="Boat Body">
+                <img src="Images/boat1.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -76,7 +76,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="boat2.jpg" alt="Boat Body">
+                <img src="Images/boat2.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -90,7 +90,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="boat3.jpg" alt="Boat Body">
+                <img src="Images/boat3.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -112,7 +112,7 @@
     <br>
     <section class="descrbox">
         <div class="paraimg">
-            <img src="dhanushkaboatlogo.png" alt="logo">
+            <img src="Images/dhanushkaboatlogo.png" alt="logo">
         </div>
         <div class="content3">
             <h2>Dhanusha Marine Lanka (Pvt) Ltd</h2>
@@ -133,7 +133,7 @@
     <div class="container">
         <div class="box">
             <div class="imagebox">
-                <img src="danushka1.jpg" alt="Boat Body">
+                <img src="Images/danushka1.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -147,7 +147,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="danushka2.jpg" alt="Boat Body">
+                <img src="Images/danushka2.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -161,7 +161,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="danushka3.jpg" alt="Boat Body">
+                <img src="Images/danushka3.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -183,7 +183,7 @@
     <br>
     <section class="descrbox">
         <div class="paraimg">
-            <img src="neilmarine.png" alt="logo">
+            <img src="Images/neilmarine.png" alt="logo">
         </div>
         <div class="content3">
             <h2>Neil Fernando and Co.(Pvt.) Ltd </h2>
@@ -209,7 +209,7 @@
     <div class="container">
         <div class="box">
             <div class="imagebox">
-                <img src="nile1.jpg" alt="Boat Body">
+                <img src="Images/nile1.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -223,7 +223,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="nile2.jpg" alt="Boat Body">
+                <img src="Images/nile2.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
@@ -237,7 +237,7 @@
         </div>
         <div class="box">
             <div class="imagebox">
-                <img src="nile3.jpg" alt="Boat Body">
+                <img src="Images/nile3.jpg" alt="Boat Body">
             </div>
             <div class="details">
                 <div class="content2">
