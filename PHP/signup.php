@@ -17,12 +17,12 @@ $dbServername = "localhost";
     }
     else
     {
-        $sql = "INSERT INTO sign (userName,Email,password)
+        $sql = "INSERT INTO sign (uname,mail,password)
             values('$uname','$mail','$pw') ";
         
      
       if($conn->query($sql)){
-        header('Location: index.html');
+        header('Location: ../index.html');
         
       }
       else{
